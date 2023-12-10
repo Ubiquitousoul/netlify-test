@@ -29,6 +29,9 @@
   font-variation-settings: 'wght' var(--card-text-font-weight);
   min-inline-size: 375px;
   min-block-size: 100dvb;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  user-select: none;
 }
 
 .content {
